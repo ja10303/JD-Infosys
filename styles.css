@@ -102,7 +102,6 @@ nav.fa {
     .text-box h1 {
         font-size: 22px;
     }
-<<<<<<< HEAD
     .nav-links ul li {
         display: block;
     }
@@ -129,34 +128,6 @@ nav.fa {
     }
 }
 
-=======
-}
-.nav-links ul li{
-    display: block;
-}
-.nav-links{
-    position: absolute;
-    background: #f44336;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-}
-nav .fa{
-    display: block;
-    color:#fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-}
-
-.nav-link ul{
-    padding: 30px;
-}
->>>>>>> c44f2fe3defe4576ab6e1a164d53ab57efe7ad61
 /*-------course-----*/
 
 .Blog {
