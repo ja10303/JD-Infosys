@@ -1,8 +1,9 @@
 *{
     margin: 0;
-    padding: 0
-    font-family;'Poppins' , sans-serif;
+    padding: 0;
+    font-family:'Poppins' , sans-serif;
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -87,6 +88,7 @@ nav.fa{
 @media(max-width:700px){
     .text-box h1{
         font-size: 22px;
+    }
 }
 .nav-links ul li{
     display: block;
@@ -112,7 +114,6 @@ nav .fa{
 
 .nav-link ul{
     padding: 30px;
-}
 }
 /*-------course-----*/
 .Blog{
