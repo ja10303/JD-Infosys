@@ -312,11 +312,3 @@ p {
   ul2 li:nth-child(4) a:hover .fab {
     color: #c4302b;
   }
-
-
-@media screen and (min-width: 700px){
-.label {
-    margin: auto;
-    text-align: right;
-}
-}
