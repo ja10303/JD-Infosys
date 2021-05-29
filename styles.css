@@ -270,6 +270,11 @@ h2 {
       width: 20%;
       border-radius: 10px;
 }
+@media(max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+}
   ul2 {
     display:flex;
     
