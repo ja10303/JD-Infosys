@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+ margin: 0;
+ padding: 0;
+ font-family: "Roboto", sans-serif;
+}
+
+.body-wrapper {
+ width: 60%;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+.page-title {
+ padding-top: 60px;
+ margin-left: 10%;
+ font-size: 40px;
+ color: rgb(58, 125, 201);
+ text-decoration: underline;
+}
+
+h1 {
+ text-align: center;
+ padding-top: 40px;
+ box-sizing: border-box;
+ color: rgb(29, 70, 202);
+}
+
+h3 {
+ margin-left: 10%;
+ font-size: 24px;
+ font-weight: bolder;
+}
+
+.intro-banner {
+ margin: 10px 0 50px;
+}
+
+.intro-banner img {
+ display: block;
+ width: 80%;
+ margin: 5% auto;
+}
+
+.text-content {
+ width: 80%;
+ margin: 10px auto 22px;
+ word-wrap: break-word;
+ font-size: 20px;
+ text-align: justify;
+ word-spacing: 2px;
+ letter-spacing: 1px;
+}
+
+.text-content2 {
+ width: 80%;
+ margin: 10px auto 22px;
+ word-wrap: break-word;
+ font-size: 18px;
+ text-align: justify;
+ word-spacing: 2px;
+ letter-spacing: 1px;
+}
+
+.content-card {
+ /* width: 80%; */
+ margin: 0 auto;
+}
+
+.content-card h2 {
+ display: block;
+ box-sizing: border-box;
+ margin-left: 10%;
+ font-size: 45px;
+}
+
+.sub-h2 {
+ font-size: 28px !important;
+ margin-bottom: 20px;
+}
+
+.text-content ul {
+ padding: 2% 10%;
+}
+
+.text-content ul li {
+ margin-bottom: 10px;
+}
+
+.text-content2 ul {
+ padding: 2% 10%;
+}
+
+.text-content2 ul li {
+ margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+ .body-wrapper {
+  width: 80%;
+ }
+}
+
+@media only screen and(max-width:800px) {
+ .body-wrapper {
+  width: 90%;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+ .body-wrapper {
+  width: 100%;
+ }
+}
