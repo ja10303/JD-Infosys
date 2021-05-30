@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 * {
  margin: 0;
@@ -15,8 +15,9 @@
 .page-title {
  padding-top: 60px;
  margin-left: 10%;
- font-size: 40px;
- color: rgb(58, 125, 201);
+ font-size: 30px;
+ /* text-align: center; */
+ color: rgb(0, 0, 0);
  text-decoration: underline;
 }
 
@@ -24,13 +25,15 @@ h1 {
  text-align: center;
  padding-top: 40px;
  box-sizing: border-box;
- color: rgb(29, 70, 202);
 }
 
 h3 {
  margin-left: 10%;
  font-size: 24px;
  font-weight: bolder;
+} 
+h3 a {
+    color:black
 }
 
 .intro-banner {
@@ -38,19 +41,23 @@ h3 {
 }
 
 .intro-banner img {
- display: block;
- width: 80%;
- margin: 5% auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .text-content {
  width: 80%;
  margin: 10px auto 22px;
  word-wrap: break-word;
- font-size: 20px;
+ font-size: 18px;
  text-align: justify;
  word-spacing: 2px;
  letter-spacing: 1px;
+}
+
+.text-content a {
+    color: black;
 }
 
 .text-content2 {
@@ -72,7 +79,13 @@ h3 {
  display: block;
  box-sizing: border-box;
  margin-left: 10%;
- font-size: 45px;
+ font-size: 36px;
+}
+
+iframe {
+    margin-left: 10%;
+    height: 300px;
+    width: 80%;
 }
 
 .sub-h2 {
@@ -81,11 +94,16 @@ h3 {
 }
 
 .text-content ul {
+color: black;
  padding: 2% 10%;
 }
 
 .text-content ul li {
  margin-bottom: 10px;
+}
+
+.text-content ul li a {
+    color: black;
 }
 
 .text-content2 ul {
@@ -94,6 +112,57 @@ h3 {
 
 .text-content2 ul li {
  margin-bottom: 15px;
+}
+
+.social-footer {
+    margin-left: 44%;
+}
+.social-footer p{
+    text-align: justify;
+    font-size: 13px;
+    /* position: relative; right: 35px; */
+}
+
+.social-footer ul {
+    display: flex;
+}
+
+.social-footer ul li {
+    list-style: none;
+}
+
+.social-footer ul li a {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.social-footer ul li a:hover {
+    text-decoration: none;
+}
+
+.social-footer ul li a .fab {
+    font-size: 21px;
+    color: #262626;
+    transition: .5s;
+}
+
+.social-footer ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+
+.social-footer ul li:nth-child(2) a:hover .fab {
+    color: #0e76a8;
+}
+
+.social-footer ul li:nth-child(3) a:hover .fab {
+    color: #8a3ab9;
+}
+
+.social-footer ul li:nth-child(4) a:hover .fab {
+    color: #c4302b;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -113,3 +182,5 @@ h3 {
   width: 100%;
  }
 }
+
+

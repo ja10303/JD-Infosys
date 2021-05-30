@@ -24,10 +24,6 @@ nav img {
     width: 200px;
 }
 
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
 
 .nav-links ul li {
     list-style: none;
@@ -295,6 +291,7 @@ ul {
 
 ul li {
     list-style: none;
+    /* margin-left: 10px; */
 }
 
 ul li a {
@@ -337,5 +334,5 @@ ul li:nth-child(4) a:hover .fab {
 .social-footer p{
     text-align: justify;
     font-size: 13px;
-    position: relative; right: 35px;
+    /* position: relative; right: 35px; */
 }
